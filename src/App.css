@@ -23,33 +23,33 @@ nav {
 
 li {
   list-style: none;
-  padding: 2% 5%;
+  padding: 2% 4.5%;
 }
 
 nav li a {
   text-decoration: none;
-  padding: 15%;
+  padding: 10%;
   font-family: "New Rocker", cursive;
-  font-size: 3em;
-  color: darkgreen;
+  font-size: 4em;
+  color: lightgreen;
 }
 
 nav li a:visited {
   text-decoration: none;
-  color: darkgreen;
+  color: lightgreen;
 }
 nav li a:hover {
   text-decoration: none;
-  color: lightseagreen;
+  color: white;
 }
 nav li a:focus {
   text-decoration: none;
-  color: lightseagreen;
+  color: white;
 }
 nav li a:hover,
 nav li a:active {
   text-decoration: none;
-  color: lightseagreen;
+  color: white;
 }
 
 h1 {
@@ -149,7 +149,7 @@ section {
 
 ul li {
   color: white;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 18px;
 }
 

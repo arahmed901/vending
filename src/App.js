@@ -81,7 +81,9 @@ function App() {
         <div class="fotter-list">
           <ul>
             <li>4FORTYEIGHTGROUP LLC</li>
-            <li>1507 Benning Rd NE suite D31</li>
+            <li>
+              1507 Benning Rd NE <br /> Suite D31
+            </li>
             <li>Wash., D.C. 20002</li>
             <li>
               <a href="mailto:Kahlid.clagett@icloud.com">
