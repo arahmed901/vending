@@ -1,38 +1,159 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+.container {
+  width: 100%;
+}
+header {
+  background-image: url("./images/vending.jpg");
+  background-position: center left;
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+
+.logo {
+  margin-top: 5%;
+  width: 30%;
+  height: 50%;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 66%;
+}
+
+li {
+  list-style: none;
+  padding: 2% 5%;
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 15%;
+  font-family: "New Rocker", cursive;
+  font-size: 3em;
+  color: darkgreen;
+}
+
+nav li a:visited {
+  text-decoration: none;
+  color: darkgreen;
+}
+nav li a:hover {
+  text-decoration: none;
+  color: lightseagreen;
+}
+nav li a:focus {
+  text-decoration: none;
+  color: lightseagreen;
+}
+nav li a:hover,
+nav li a:active {
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+h1 {
+  color: green;
+  font-size: 4em;
   text-align: center;
+  font-family: "New Rocker", cursive;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding: 2.5% 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-size: 2em;
+  text-align: center;
+  color: #016b25;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about {
+  width: 100%;
+  background-image: linear-gradient(to right, whitesmoke, snow, whitesmoke);
+  height: 100%;
+  margin-top: 0;
+  padding: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-p {
+  width: 45%;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 3.4em;
+}
+
+.office {
+  width: 40%;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+}
+
+.form-cont {
+  width: 70%;
+  margin: 0 auto;
+}
+
+input {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+textarea {
+  width: 50%;
+  height: 8vh;
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  width: 10%;
+  margin: 2% auto;
+  padding: 1% 0;
+}
+
+form {
+  background-image: linear-gradient(#016b25, whitesmoke, #016b25);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 2%;
+}
+
+label {
+  padding: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 2em;
+}
+
+.footer-logo {
+  margin: 1.5%;
+  text-align: end;
+}
+
+footer {
+  background-color: black;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  margin: 0;
+}
+
+ul li {
   color: white;
+  line-height: 1.5;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul li a {
+  text-decoration: none;
+  color: white;
 }
