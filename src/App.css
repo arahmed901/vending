@@ -31,12 +31,12 @@ nav li a {
   padding: 10%;
   font-family: "New Rocker", cursive;
   font-size: 4em;
-  color: lightgreen;
+  color: darkgreen;
 }
 
 nav li a:visited {
   text-decoration: none;
-  color: lightgreen;
+  color: darkgreen;
 }
 nav li a:hover {
   text-decoration: none;
