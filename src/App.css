@@ -157,3 +157,85 @@ ul li a {
   text-decoration: none;
   color: white;
 }
+
+@media only screen and (max-width: 1024px) {
+  a {
+    color: white;
+  }
+
+  .logo {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    font-size: 0.5em;
+  }
+
+  nav li a {
+    text-decoration: none;
+    padding: 2%;
+    font-size: 4em;
+    color: white;
+  }
+
+  .logo {
+    width: 60%;
+  }
+
+  .about-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-p {
+    width: 100%;
+  }
+
+  .office {
+    width: 60%;
+  }
+
+  .form-cont {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 703px) {
+  footer {
+    background-color: black;
+    height: 20vh;
+    display: flex;
+  }
+
+  ul {
+    padding-inline-start: 0;
+  }
+
+  ul li {
+    padding: 2% 0;
+  }
+
+  .footer-logo {
+    width: 50%;
+    height: 50%;
+    margin: 5% 0;
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  .footer-logo {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  nav {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+  }
+}
